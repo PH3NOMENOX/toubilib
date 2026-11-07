@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+.DS_STORE
+._*
+__MACOSX/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer / PHP Dependencies & Caches
+/vendor/
+/app/vendor/
+composer.phar
+.phpunit.result.cache
+.php_cs.cache
+cache.properties
+/coverage/
+/var/cache/*
+
+# Logs
+/app/logs/*
+!/app/logs/README.md
+
+# Environment variables & secrets
+*.env
+!*.env.dist
+/app/config/.env
+/toubiauthdb.env
+/toubilib.env
+/toubipatientdb.env
+/toubipratdb.env
+/toubirdvdb.env
